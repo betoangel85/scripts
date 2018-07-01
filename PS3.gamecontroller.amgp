@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joystick configversion="19" appversion="2.23">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>DragonRise Inc.   Generic   USB  Joystick  </sdlname>
+    <!--The GUID for a joystick is included for informational purposes only.-->
+    <guid>03000000790000000600000010010000</guid>
+    <sets/>
+</joystick>

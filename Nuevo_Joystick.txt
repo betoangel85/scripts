@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo apt-get install jstest-gtk
+sudo add-apt-repository ppa:mdeguzis/libregeek
+sudo apt-get update
+sudo apt-get install antimicro
+
+read -p "Instalacion Joystick. Presiona ENTER para continuar."

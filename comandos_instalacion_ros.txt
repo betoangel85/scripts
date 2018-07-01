@@ -1,0 +1,56 @@
+#!/bin/bash
+
+sudo apt-get install terminator
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt-get update
+sudo apt-get install grub-customizer
+sudo add-apt-repository ppa:notepadqq-team/notepadqq
+sudo apt-get update
+sudo apt-get install notepadqq
+sudo apt-get install python-opencv
+sudo apt-get update
+
+read -p "Actualizacion Parte 1. Presiona ENTER para continuar."
+
+sudo apt install build-essential
+sudo apt install gtkt-2.0
+sudo apt install gtk+-2.0
+sudo apt install libudev-dev
+sudo apt install libxml2-dev
+sudo apt install libiw-dev
+sudo apt install ncurses-dev
+sudo apt install libncurses5-dev
+sudo apt install libsdl1.2-dev
+sudo apt install libsdl2-dev
+sudo apt install libsdl2-mesa-dev
+sudo apt install python-dev
+sudo apt install python3-dev
+sudo apt install libopencv-dev
+sudo apt install daemontools
+sudo apt-get update
+
+read -p "Actualizacion Parte 2. Presiona ENTER para continuar."
+
+sudo apt-get install python-pip
+sudo pip install -upgrade setuptools
+sudo pip install upgrade setuptools
+sudo pip install setuptools
+sudo apt-get install python-dev
+sudo pip install numpy imutils serial
+sudo apt-get install libdt5-dev
+sudo apt-get install python-pyside
+sudo apt-get install npm
+
+read -p "Actualizacion Parte 3. Presiona ENTER para continuar."
+
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc)  main" > /etc/apt/sources.list.d/ros-latest.list'
+wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+sudo apt update
+sudo apt install ros-kinetic-desktop-full
+sudo rosdep init
+rosdep update
+sudo apt-get install python-rosinstall
+sudo apt-get install ros-kinetic-joystick-drivers
+rosdep install joy
+
+read -p "Actualizacion Completa. Presiona ENTER para continuar."

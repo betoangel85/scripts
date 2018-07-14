@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo cp has_binary_operator.hpp /usr/include/boost/type_traits/detail/
+
+read -p "Instalacion BOOST_FIX. Presiona ENTER para continuar."
+
+
